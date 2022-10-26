@@ -162,11 +162,13 @@
         font-weight: 400;
         font-size: 12px;
         line-height: 14px;
-        
+        display: flex;
+        justify-content: center;
+        align-content: center;
 
         letter-spacing: 0.4px;
 
-                color: #C2C2C2;
+               
         
     
     }
@@ -184,8 +186,9 @@
         width: 304px;
         display: flex;
         justify-content: center;
-      padding: 10px;
-      box-sizing: border-box;
+        align-content: center;
+        padding: 10px;
+        box-sizing: border-box;
         border-radius: 3.125px;
         
         margin-top: 16px;
