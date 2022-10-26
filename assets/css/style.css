@@ -1,0 +1,217 @@
+.nav {
+    margin: 3rem 0 9rem 0;
+  }
+
+  .nav .nav_menu {
+    display: flex;
+    align-items: center;
+  }
+
+  .nav .nav_menu .nav_menu-bar li {
+    margin: 0 0 0 3rem;
+  }
+
+  .nav .nav_menu .nav_menu-bar li a {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #07043B;
+  }
+
+    .hero_content h1{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 39px;
+    line-height: 60px;
+    color: #07043B;
+    }
+
+    .text1{
+        margin-top: 4rem;
+    }
+
+    .hero_content p{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 24px;
+    letter-spacing: 0.53125px;
+    color: #07043B;
+    padding-top: 1rem;
+}
+
+.inp{
+    border: 0.625px solid #07043B;
+
+    border-radius: 3.125px;
+    margin-top: 1rem;
+    height: 30px;
+    width: 260px;
+    padding: 18px;
+    box-sizing: border-box;
+
+
+}
+
+.btn{
+    background: #2F65F8;
+    box-shadow: 2px 3px 6px white;
+    border-radius: 3.125px;
+    height: 38px;
+    width: 140px;
+    color: white;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 15px;
+    cursor: pointer;
+    border: 0.625px transparent;
+    padding-top: 4px;
+    box-sizing: border-box;
+
+}
+
+
+@media only screen and (max-width: 600px) {
+    
+
+    .nav {
+        width: 327px;
+        height: 24px;
+        
+        margin: 24px;
+        
+        
+      }
+    
+      
+    
+      
+    
+      .nav_menu ul li a {
+        font-family: 'Raleway';
+        font-style: normal;
+        font-family: 'Raleway';
+        
+        font-weight: 400 !important;
+        font-size: 12px !important;
+        line-height: 14px !important;
+        
+        margin-top: 5px;
+        margin-right: -25px;
+        float: right;
+        
+
+        color: #07043B !important;
+        
+      }
+    
+        .hero_content h1{
+            font-family: 'Open Sans';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 24px;
+            line-height: 36px;
+            
+            
+            text-align: center;
+            
+            color: #07043B;
+        }
+
+        
+        
+        
+        .hero_content p{
+          height: 84px;
+          width: 296px;
+          font-family: 'Open Sans';
+          font-style: normal;
+          font-weight: 400;
+          font-size: 14px;
+          line-height: 21px;
+          margin-bottom: 20px;
+
+          text-align: center;
+
+          color: #07043B;
+
+          
+    }
+    
+    .inp{
+        border: 0.625px solid #07043B;
+        box-shadow: 2px 3px 6px rgba(0, 0, 0, 0.15925);
+        border-radius: 3.125px;
+        height: 40px;
+        width: 304px;
+        left: 0px;
+        top: 0px;
+        border-radius: 3.125px;
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 14px;
+        
+
+        letter-spacing: 0.4px;
+
+                color: #C2C2C2;
+        
+    
+    }
+    
+    .btn{
+        background: #2F65F8;
+        box-shadow: 2px 3px 6px rgba(0, 0, 0, 0.15925);
+        border-radius: 3.125px;
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 16px;
+        height: 40px;
+        width: 304px;
+        display: flex;
+        justify-content: center;
+      padding: 10px;
+      box-sizing: border-box;
+        border-radius: 3.125px;
+        
+        margin-top: 16px;
+        color: #FFFFFF;
+    }
+    
+    .nav_logo a img{
+      height: 24px;
+      width: 80px;
+      
+    }
+
+    .hero_img img{
+      height: 225px;
+      width: 304px;
+      margin-top: 40px;
+      
+
+    }
+
+    .hero .row{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column-reverse;
+    }
+
+    
+  }
