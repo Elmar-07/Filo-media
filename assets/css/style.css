@@ -87,8 +87,10 @@
     .nav {
         width: 327px;
         height: 24px;
-        
-        margin: 24px;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        margin: 34px;
         
         
       }
@@ -139,8 +141,8 @@
           font-weight: 400;
           font-size: 14px;
           line-height: 21px;
-          margin-bottom: 20px;
-
+          margin-bottom: 40px;
+          margin-left: 5px;
           text-align: center;
 
           color: #07043B;
@@ -164,7 +166,7 @@
         display: flex;
         justify-content: center;
         align-content: center;
-        margin-left: 5px;
+        margin-left: 10px;
         letter-spacing: 0.4px;
 
                
@@ -189,7 +191,7 @@
         padding-top: 10px;
         box-sizing: border-box;
         border-radius: 3.125px;
-        margin-left: 5px;
+        margin-left: 10px;
         margin-top: 16px;
         color: #FFFFFF;
     }
